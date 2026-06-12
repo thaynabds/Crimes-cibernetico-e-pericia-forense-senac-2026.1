@@ -13,108 +13,147 @@ Atividade da UC [TADS25.109/2N] LEGISLAÇÃO DE TECNOLOGIA DA INFORMAÇÃO - 202
 
 ## Questão 1 — Jurisdição nos Crimes Cibernéticos Internacionais e a Convenção de Budapeste
 
-### O Problema da Jurisdição
+### O Paradoxo Jurisdicional: Fronteiras Físicas vs. Ameaças Digitais
 
-Crimes cibernéticos desafiam o conceito tradicional de jurisdição, que é baseado em território. Um ataque pode ser planejado em um país, executado por servidores em outro e atingir vítimas em um terceiro — tudo em questão de segundos. Isso gera conflitos sobre **qual Estado tem competência para investigar e julgar** o crime.
+O Direito Penal tradicional é ancorado no **princípio da territorialidade**: a lei aplicável é a do local onde o crime ocorreu. O cibercrime quebra essa lógica. Um ataque pode ser planejado em um país, executado por servidores em outro e atingir vítimas em um terceiro — surgindo o paradoxo: **qual país deve processar o autor?**
 
-Os principais obstáculos jurisdicionais são:
+Os três pilares do problema jurisdicional são:
 
-- **Anonimato e dificuldade de localização** do agente criminoso
-- **Legislações incompatíveis** entre países (o que é crime em um pode ser legal em outro)
-- **Soberania nacional** limitando o acesso a evidências armazenadas em outros territórios
-- **Lentidão dos acordos de cooperação** diante da velocidade dos crimes digitais
+- **O Desafio Soberano:** cada país possui soberania legislativa própria. Legislações distintas inviabilizam punições e travam a investigação — o que é crime em um Estado pode ser conduta atípica em outro.
+- **O Conflito de Localidade:** em crimes tradicionais, o local define a lei aplicável. Na Internet, a conduta pode ser delituosa em um país e perfeitamente legal em outro.
+- **A Necessidade:** sem cooperação internacional e uniformização legislativa, a preservação de provas digitais torna-se intransponível.
 
-### A Convenção de Budapeste
+### A Dualidade do Cibercrime
 
-A **Convenção sobre o Cibercrime de Budapeste (2001)**, elaborada pelo Conselho da Europa e aberta à adesão de países não membros, é o principal instrumento internacional de combate ao cibercrime. O Brasil a ratificou em **2021 (Decreto nº 11.491/2023)**.
+Antes de tratar da cooperação, é fundamental compreender a natureza dos crimes em questão:
 
-Ela é relevante porque:
-
-| Aspecto | Contribuição |
+| Modalidade | Descrição |
 |---|---|
-| **Harmonização legal** | Estabelece definições comuns de crimes cibernéticos entre os signatários |
-| **Cooperação investigativa** | Cria canais formais para troca de informações e provas entre países |
-| **Preservação rápida de dados** | Permite solicitar a retenção urgente de evidências digitais a outros Estados |
-| **Acesso transfronteiriço a dados** | Facilita o acesso a dados armazenados em servidores no exterior |
+| **Computador como Alvo** | Crimes que atentam contra a integridade, confidencialidade ou disponibilidade dos sistemas de informação. O sistema em si é a vítima (ex: ataques de hackers, ransomware). |
+| **Computador como Ferramenta** | O dispositivo é o meio utilizado para praticar tipos penais tradicionais de forma digital (ex: fraudes financeiras, estelionato, disseminação de malware). |
+
+### A Resposta Global: A Convenção de Budapeste
+
+A **Convenção sobre o Cibercrime de Budapeste (2001)** é o principal tratado internacional em vigor que visa harmonizar as leis nacionais sobre cibercrime. O Brasil tornou-se signatário oficialmente em **2023 através do Decreto nº 11.491/2023**, integrando a rede global de combate.
+
+Seu objetivo central é reconhecer que o combate eficiente exige uma **cooperação internacional em assuntos penais mais intensa, rápida e estruturada**.
+
+#### Vocabulário Legal Definido pela Convenção
+
+A Convenção estabelece conceitos comuns entre os signatários, eliminando ambiguidades jurídicas:
+
+| Conceito | Definição |
+|---|---|
+| **Sistema de Computador** | Aparelho ou conjunto interconectado que assegura, pela execução de um programa, o processamento eletrônico de dados. |
+| **Dado de Computador** | Representação de fatos, informações ou conceitos em forma adequada para processamento, incluindo programas. |
+| **Provedor de Serviços** | Entidade que permite comunicação aos usuários ou realiza processamento/armazenamento em nome deles. |
+| **Dados de Tráfego** | Dados referentes a uma comunicação, indicando origem, destino, caminho, hora, data, duração ou tipo de serviço. |
+
+#### Matriz de Tipificação: Crimes Contra Sistemas e Dados
+
+| Tipificação Penal | Conduta Descrita | Agravante |
+|---|---|---|
+| **Acesso Ilegal** | Acesso doloso e não autorizado a um sistema de computador. | Violação de medidas de segurança ou objetivo fraudulento. |
+| **Interceptação Ilícita** | Interceptação intencional de transmissões não-públicas. | Conexão a outros sistemas de computador. |
+| **Violação de Dados** | Danificação, eliminação ou alteração dolosa de dados. | Sério dano para a vítima. |
+| **Interferência** | Grave obstrução dolosa e não autorizada do funcionamento de um sistema. | — |
+| **Uso Indevido** | Produção, venda ou posse de ferramentas desenvolvidas para cometer cibercrimes. | Intenção clara de uso delituoso. |
 
 ### Desafios na Produção e Preservação de Provas Digitais
 
-As provas digitais têm características que exigem cuidados especiais:
+As evidências digitais possuem características que tornam sua gestão especialmente desafiadora:
 
-- **Volatilidade** — dados em memória RAM, logs e registros de conexão podem ser sobrescritos rapidamente
-- **Integridade** — qualquer alteração, mesmo acidental, pode invalidar a prova
-- **Autenticidade** — é necessário comprovar que a evidência não foi manipulada após a coleta
-- **Admissibilidade** — a prova deve seguir procedimentos legais para ser aceita no processo
+- **Volatilidade** — dados em memória RAM, logs e registros de conexão podem ser sobrescritos ou perdidos rapidamente sem intervenção imediata.
+- **Integridade** — qualquer alteração, mesmo acidental, compromete a validade da prova.
+- **Autenticidade** — é necessário comprovar que a evidência não foi manipulada entre a coleta e a apresentação em juízo.
+- **Fragmentação transfronteiriça** — a prova pode estar distribuída em servidores de diferentes países, com prazos de retenção e padrões técnicos distintos.
 
-A cooperação internacional também enfrenta barreiras práticas: diferentes padrões técnicos de coleta, prazos de retenção de dados distintos entre países e o crescente uso de criptografia e anonimizadores dificultam o trabalho investigativo transfronteiriço.
-
----
-
-## Questão 2 — Perícia Forense Digital: Etapas, Cadeia de Custódia e Análise Técnica
-
-### O Papel da Perícia Forense Digital
-
-A perícia forense digital é o conjunto de procedimentos técnicos e legais para **identificar, coletar, preservar, analisar e apresentar evidências digitais** de forma que sejam válidas juridicamente. Ela é essencial para comprovar tanto a **materialidade** (existência do crime) quanto a **autoria** (quem praticou).
-
-### Etapas da Perícia Forense Digital
-
-```
-[1. Identificação] → [2. Preservação] → [3. Coleta] → [4. Análise] → [5. Laudo Pericial]
-```
-
-#### 1. Identificação
-Reconhecimento das fontes de evidência: dispositivos físicos (HDs, celulares, pendrives), registros de rede (logs, IPs), dados em nuvem e metadados de arquivos.
-
-#### 2. Preservação
-Etapa crítica. O objetivo é garantir que as evidências **não sejam alteradas** após a descoberta. Aqui entra a **cadeia de custódia** e a **clonagem pericial**.
-
-#### 3. Coleta
-Realização da clonagem forense e extração controlada dos dados. Toda ação é documentada com data, hora, responsável e método utilizado.
-
-#### 4. Análise Técnica
-Exame dos dados coletados para reconstruir eventos, identificar rastros digitais, recuperar arquivos deletados e correlacionar evidências com o crime investigado.
-
-#### 5. Laudo Pericial
-Documento formal que apresenta os achados da perícia de forma técnica e acessível, com metodologia, resultados e conclusões. É a peça que sustenta a acusação ou defesa no processo judicial.
+Sem a harmonização promovida por Budapeste, a preservação de provas digitais em crimes internacionais permanece intransponível.
 
 ---
 
-### Cadeia de Custódia
+## Questão 2 — Perícia Forense Digital: O Duto Forense, Cadeia de Custódia e Análise Técnica
 
-A **cadeia de custódia** é o registro cronológico e documentado de **todo o ciclo de vida da evidência**: desde sua identificação até sua apresentação em juízo. Deve registrar:
+### A Ciência da Verdade: Introdução à Perícia Forense
 
-- Quem teve contato com a evidência
-- Quando e onde o contato ocorreu
-- O que foi feito com ela em cada etapa
-- Como foi armazenada e transportada
+A perícia forense digital é a área da ciência que cuida de **preservar, identificar e analisar as evidências digitais** para apontar a **materialidade**, a **autoria** e a **dinâmica do crime**.
 
-A ruptura da cadeia de custódia pode resultar na **inadmissibilidade da prova** no processo, mesmo que ela seja tecnicamente válida. No Brasil, o Código de Processo Penal (art. 158-A ao 158-F, inseridos pela Lei nº 13.964/2019) regulamenta formalmente a cadeia de custódia.
+Seus três pilares probatórios são:
 
-### Clonagem Pericial
+| Pilar | Objetivo |
+|---|---|
+| **Materialidade** | Comprovar que o crime digital de fato ocorreu e deixou rastros tangíveis e inalterados. |
+| **Autoria** | Vincular técnica e logicamente o ataque ou a fraude à identidade real de um indivíduo ou grupo. |
+| **Método** | Desvendar o modus operandi — a dinâmica exata de como o sistema foi comprometido e explorado. |
 
-A clonagem pericial consiste na criação de uma **cópia bit a bit** do dispositivo original, gerando uma imagem forense idêntica. A análise é sempre feita sobre a **cópia**, nunca sobre o original, para preservar a integridade da evidência.
+### O Duto Forense: As 4 Fases da Perícia
 
-O processo inclui:
-- Uso de **bloqueadores de escrita** para impedir qualquer gravação no dispositivo original
-- Geração de **hash criptográfico** (MD5, SHA-256) do original e da cópia para atestar que são idênticos
-- Armazenamento seguro da mídia original lacrada e identificada
+```
+[01. Coleta e Preservação] → [02. Extração] → [03. Análise] → [04. Laudo Pericial]
+```
 
-### Análise Técnica e Comprovação dos Delitos
+#### Fase 01 — Coleta e Preservação: A Cadeia de Custódia
 
-A análise forense permite:
+Isolamento imediato dos dispositivos suspeitos (computadores, celulares, nuvem). O objetivo principal é **evitar qualquer adulteração ou destruição de dados**, marcando o início da cadeia de custódia legal.
 
-- **Materialidade:** confirmar que o crime ocorreu (ex.: arquivos maliciosos encontrados, registros de acesso não autorizado, logs de transações fraudulentas)
-- **Autoria:** identificar o responsável por meio de endereços IP, contas de usuário, metadados, histórico de navegação e comunicações eletrônicas
+A **cadeia de custódia** é o registro cronológico e documentado de todo o ciclo de vida da evidência, estabelecendo quem teve contato com ela, quando, onde e o que foi feito. No Brasil, é regulamentada pelos **art. 158-A a 158-F do CPP** (inseridos pela Lei nº 13.964/2019 — Pacote Anticrime). Sua ruptura pode resultar na **inadmissibilidade da prova**, mesmo que tecnicamente válida.
 
-Ferramentas como **Autopsy**, **FTK (Forensic Toolkit)** e **Wireshark** são comumente utilizadas nessa fase para recuperação de dados, análise de tráfego de rede e reconstrução de eventos.
+#### Fase 02 — Extração: A Clonagem Pericial
+
+Utilização de hardwares (*write-blockers*) e softwares especializados para copiar absolutamente todos os dados, criando uma **imagem forense idêntica sem modificar um único bit do dispositivo original**.
+
+O processo garante integridade por meio de:
+- **Bloqueadores de escrita (*write-blockers*):** impedem qualquer gravação no dispositivo original durante a cópia.
+- **Hash criptográfico (MD5 / SHA-256):** gerado tanto do original quanto da cópia, atestando matematicamente que são idênticos. Qualquer alteração, por mínima que seja, resulta em um hash completamente diferente.
+
+Toda análise subsequente é realizada exclusivamente sobre a **imagem clonada**, preservando a mídia original lacrada e identificada.
+
+#### Fase 03 — Análise: A Caçada Digital
+
+O perito examina a imagem clonada em um ambiente isolado, realizando busca ativa por:
+
+- Rastros de invasões e malwares
+- Histórico de navegação e comunicações
+- Transações fraudulentas
+- Comunicações criptografadas
+- Arquivos ocultos ou deletados
+
+Essa fase aponta a **materialidade** (o crime ocorreu) e a **autoria** (quem o cometeu), reconstruindo também o **método** utilizado.
+
+#### Fase 04 — Laudo Pericial: A Tradução Técnico-Jurídica
+
+Documentação exaustiva e metódica de todas as descobertas. O laudo **traduz a linguagem técnica e binária** para que juízes, advogados e delegados compreendam com clareza cristalina como o crime ocorreu. É a peça que sustenta a acusação ou a defesa no processo judicial.
+
+### Principais Focos de Investigação Forense
+
+| Especialidade | O que investiga |
+|---|---|
+| **Forense Mobile** | Dados de smartphones, interceptações e metadados de aplicativos de mensagens. |
+| **Rastreamento de Fraudes** | Desvios financeiros, phishing complexo, estelionato virtual e clonagem de cartões. |
+| **Crimes Contra a Honra** | IPs, perfis falsos, autores de cyberbullying e vazamentos de dados sensíveis. |
+| **Invasões e Ataques** | Engenharia reversa e análise de ransomware, sequestro de sistemas e roubo de propriedade intelectual. |
+
+---
+
+## Síntese: O Ciclo da Justiça Digital
+
+> *"A tecnologia cria a arma, a legislação define a regra, e a ciência garante a justiça."*
+
+```
+        [Cibercrime]
+        ↙          ↘
+  [A Perícia]  ←  [A Convenção]
+```
+
+Sem a harmonização de Budapeste e o rigor da Perícia Forense, o cibercrime permanece invisível. Juntos, transformam rastros digitais em condenações reais.
 
 ---
 
 ## Referências
 
 - **Convenção de Budapeste sobre o Cibercrime** — Conselho da Europa, 2001
+- **Decreto nº 11.491/2023** — Promulgação da Convenção de Budapeste no Brasil
+- **Lei nº 13.964/2019** — Pacote Anticrime (cadeia de custódia, art. 158-A a 158-F do CPP)
 - **Lei nº 12.737/2012** — Lei Carolina Dieckmann (crimes informáticos)
 - **Lei nº 14.155/2021** — Agravamento dos crimes cibernéticos no Brasil
-- **Lei nº 13.964/2019** — Pacote Anticrime (cadeia de custódia, art. 158-A a 158-F do CPP)
-- **Decreto nº 11.491/2023** — Promulgação da Convenção de Budapeste no Brasil
-- Material de referência da disciplina: *Cybercrime, Digital Perícia Forense* — Faculdade Senac Recife-PE
+- Material de referência da disciplina: *O Código e a Lei: Cibercrime e Perícia Forense* — Faculdade Senac Recife-PE, 2026.1
